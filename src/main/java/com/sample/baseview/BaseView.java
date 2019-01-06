@@ -50,6 +50,7 @@ public class BaseView {
 	 */
 	public int findXCoordinate(MobileElement ele) {
 		final int X = ele.getLocation().getX();
+		System.out.println(X);
 		return X;
 	}
 
